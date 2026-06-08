@@ -1,0 +1,20 @@
+name: A basic flow iwth 2 jobs
+on: plush
+jobs:
+  job1:
+    name: job one to run
+    runs on: ubuntupllatest
+    steps:
+      uses : actions/checkout@v4
+      name : step-two
+      uses : is -i
+      name : stwp-three
+    uses: pwd
+  Job2:
+    name: second job to run
+    runs on : Windows-latest
+    steps: 
+        name: step one of job2
+        uses: actomd/checkout@v4
+        name: steo2 of job 2
+        uses: pwd
